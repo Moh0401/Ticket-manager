@@ -1,7 +1,7 @@
-package com.gestion_de_Tickets.ticket_manager.services;
+package com.gestion_de_Tickets.ticket_manager.Service;
 
-import com.gestion_de_Tickets.ticket_manager.modele.Notification;
-import com.gestion_de_Tickets.ticket_manager.repository.NotificationRepository;
+import com.gestion_de_Tickets.ticket_manager.Repository.NotificationRepository;
+import com.gestion_de_Tickets.ticket_manager.entity.Notification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

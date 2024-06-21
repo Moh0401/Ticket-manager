@@ -1,13 +1,12 @@
-package com.gestion_de_Tickets.ticket_manager.modele;
+package com.gestion_de_Tickets.ticket_manager.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+@Entity
 @Getter
 @Setter
-@Entity
-@Table(name ="NOTIFICATION" )
 public class Notification {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

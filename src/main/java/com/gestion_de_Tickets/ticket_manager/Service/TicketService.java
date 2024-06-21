@@ -1,7 +1,7 @@
-package com.gestion_de_Tickets.ticket_manager.services;
+package com.gestion_de_Tickets.ticket_manager.Service;
 
-import com.gestion_de_Tickets.ticket_manager.modele.Ticket;
-import com.gestion_de_Tickets.ticket_manager.repository.TicketRepository;
+import com.gestion_de_Tickets.ticket_manager.Repository.TicketRepository;
+import com.gestion_de_Tickets.ticket_manager.entity.Ticket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
-package com.gestion_de_Tickets.ticket_manager.services;
+package com.gestion_de_Tickets.ticket_manager.Service;
 
-import com.gestion_de_Tickets.ticket_manager.modele.BaseDeConnaissance;
-import com.gestion_de_Tickets.ticket_manager.repository.BaseDeConnaissanceRepository;
+import com.gestion_de_Tickets.ticket_manager.Repository.BaseDeConnaissanceRepository;
+import com.gestion_de_Tickets.ticket_manager.entity.BaseDeConnaissance;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
